@@ -1,0 +1,29 @@
+{
+	"info": {
+		"_postman_id": "3e4b8264-7f3c-4b2c-98a9-118dc66d04ba",
+		"name": "jsonPlaceHolder",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "24622058",
+		"_collection_link": "https://postman-4352.postman.co/workspace/Galaxy-Training~b4f5937c-0b98-4604-85de-5efa24f9163e/collection/24622058-3e4b8264-7f3c-4b2c-98a9-118dc66d04ba?action=share&source=collection_link&creator=24622058"
+	},
+	"item": [
+		{
+			"name": "todos",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/todos/1",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"todos",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "postman",
+  "version": "1.0.0",
+  "main": "index.js",
+"scripts": {
+  "test": "newman run collection/jsonPlaceHolder.postman_collection.json -e environment/jsonPlaceHolder.postman_environment.json",
+  "report": "newman run collection/jsonPlaceHolder.postman_collection.json -e environment/jsonPlaceHolder.postman_environment.json -r htmlextra"
+},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "newman": "^6.2.1",
+    "newman-reporter-htmlextra": "^1.23.1"
+  }
+}
